@@ -24,8 +24,3 @@ def isCollisionRect(rect1,rect2):
         return False
     else:
         return True
-        isCollisionRect([(-3.4, 1),(9.2, 10)], [(-7.4, 0),(13.2, 12)]) # Вернет True
-
-isCollisionRect([(1, 1),(2, 2)], [(3, 0),(13, 1)]) # Вернет False
-
-#isCollisionRect([(1, 1),(2, 2)], [(3, 17),(13, 1)]) # Вызовет ошибку
